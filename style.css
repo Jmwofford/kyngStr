@@ -127,15 +127,7 @@
     border-width:.2px;
 
 }
-.nav-item:hover{
-    text-align:center;
-    border-radius:22px;
-    border-width:.2px;
-    font-size:40px;
-    color:black;
-    transition:1s;
 
-}
 .navbar-nav{
     display: flex;
 }
@@ -148,16 +140,15 @@
     padding:1em;
 
 }
-.binfo{
-    border:solid black;
-    border-width:.3px;
-     /* padding:6px; */
-    color:white;
-    /* text-align:center; */
-}
+
 
 .modal-body{
-    background-color:#333C3F;
+    /* background-color:#333C3F; */
+    background-image:url('https://cdn.wallpapersafari.com/75/71/FuQ49o.gif');
+    /* background-size:cover; */
+    /* display:flex; */
+    color:gold;
+    
 }
 
 #introModal{
@@ -229,11 +220,25 @@ form{
     border:solid white;
     padding:22px;
     border-radius:50%;
-    background-color:#7A2E94;
     margin:6px;
     height:120px;
-    width:40%;
+    /* width:40%; */
     border-width:.3px;
+    background-image:url('http://38.media.tumblr.com/0945c52bca47d8c9fed60fec5ee47a9e/tumblr_n8os0blzXl1rsrdjco7_500.gif');
+    background-color:#333C3F;
+}
+
+.imgMod:hover{
+    border:solid gold;
+    padding:22px;
+    border-radius:50%;
+    margin:6px;
+    height:120px;
+    /* width:40%; */
+    border-width:3px;
+    transition:.3s;
+    background-image:url('http://38.media.tumblr.com/0945c52bca47d8c9fed60fec5ee47a9e/tumblr_n8os0blzXl1rsrdjco7_500.gif');
+    background-color:#333C3F;
 }
 #cardMain{
     margin-top:32px;
