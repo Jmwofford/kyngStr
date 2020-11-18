@@ -99,7 +99,9 @@
 }
 
 /* GENERAL CSS */
-
+.bodyA{
+    height:350vh;
+}
 .sing{
     border:solid red;
     text-align:center;
