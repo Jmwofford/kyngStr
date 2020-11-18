@@ -45,7 +45,7 @@
 .nav-item{
     /* border:solid black; */
     text-align:center;
-    padding:3px;
+    /* padding:3px; */
     border-radius:22px;
     border-width:.2px;
 
@@ -53,8 +53,8 @@
 .nav-item:hover{
     border:solid black;
     text-align:center;
-    background-color:#333C3F;
-    padding:3px;
+    /* background-color:#333C3F; */
+    /* padding:3px; */
     border-radius:22px;
     border-width:.2px;
 
@@ -71,14 +71,14 @@
 .binfo{
     border:solid black;
     border-width:.3px;
-    margin:6px;
+    margin:26px;
     padding:6px;
     color:white;
     text-align:center;
 }
 .binfo:hover{
     border:solid gold;
-    margin:3px;
+    margin:26px;
     border-width:.3px;
     padding:6px;
     background-color:black;
@@ -113,6 +113,7 @@
 .canHelp{
 border:solid white;
 border-radius:35px;
+border-width:.3px;
 text-align:center;
 color:white;
 margin:22px;
@@ -120,7 +121,7 @@ width:40%;
 }
 .canHelp:hover{
     border:solid #7A2E94;
-
+    background-color:black;
     border-radius:35px;
     text-align:center;
     color:white;
@@ -132,6 +133,7 @@ width:40%;
 .needHelp{
     border:solid white;
     border-radius:35px;
+    border-width:.3px;
     text-align:center;
     color:white;
     margin:22px;
@@ -141,6 +143,7 @@ width:40%;
     border:solid #7A2E94;
     border-radius:35px;
     text-align:center;
+    background-color:black;
     color:white;
     margin:22px;
     width:40%;
@@ -153,16 +156,18 @@ width:40%;
     justify-content: space-around;
 }
 .formImg{
-    height:auto;
-    margin:8px;
+    height:250px;
+    margin-top:8px;
     width:100%;
-    border-radius:35px;
+    /* border-radius:35px; */
 }
 form{
     border:solid white;
     padding:22px;
     color:white;
     text-align:center;
+    border-width:1px;
+    margin:10px;
 }
 .comE{
     color:white;
@@ -176,13 +181,18 @@ form{
     border:solid white;
     padding:1em;
     color:white;
+    border-width:.3px;
 }.imgMod{
     border:solid white;
     padding:22px;
-    border-radius:35px;
+    border-radius:50%;
     background-color:#7A2E94;
     margin:6px;
     height:120px;
     width:40%;
     border-width:.3px;
+}
+#cardMain{
+    margin-top:32px;
+    color:white;
 }
