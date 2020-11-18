@@ -127,20 +127,21 @@ border-radius:50%;
 border-width:3px;
 text-align:center;
 color:white;
-margin:22px;
+margin:12px;
 width:20%;
 padding:12px;
 }
-.canHelp:hover{
-    border:solid #7A2E94;
-    background-color:black;
-    border-radius:35px;
-    text-align:center;
-    color:white;
-    margin:22px;
-    width:40%;
-    font-size:20px;
-    transition:.2s;
+
+    .canHelp:hover{
+        border:solid #7A2E94;
+        background-color:black;
+        border-radius:35px;
+        text-align:center;
+        color:white;
+        margin:22px;
+        width:40%;
+        font-size:20px;
+        transition:.2s;
     }
 .needHelp{
     padding:12px;
@@ -149,25 +150,29 @@ padding:12px;
     border-width:3px;
     text-align:center;
     color:white;
-    margin:22px;
+    margin:12px;
     width:20%;
 }
-.needHelp:hover{
-    border:solid #7A2E94;
-    border-radius:35px;
-    text-align:center;
-    background-color:black;
-    color:white;
-    margin:22px;
-    width:40%;
-    font-size:20px;
-    transition:.2s;
-}
+    .needHelp:hover{
+        border:solid #7A2E94;
+        border-radius:35px;
+        text-align:center;
+        background-color:black;
+        color:white;
+        margin:22px;
+        width:40%;
+        font-size:20px;
+        transition:.2s;
+    }
+    .bell{
+        height:90px;
+        
+    }
 .containerOne{
     display:flex;
     margin-top:22px;
     /* border:solid #7A2E94; */
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .formImg{
     height:250px;
