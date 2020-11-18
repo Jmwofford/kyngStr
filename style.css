@@ -10,7 +10,7 @@
   /* ===================================== */
 @media (max-width: 1000px) {
     .bodyA{
-        background-color:black;
+        background-color:#333C3F;
     }
     .tagHead{
         height:130px;
@@ -62,9 +62,22 @@
             font-size:10px;
             color:white;
             height:40px;
+            
+            background-color:black;
         }
+        .canHelp:hover{
+            padding:12px;
+                border:solid green;
+                border-radius:32px;
+                border-width:.3px;
+                text-align:center;
+                font-size:10px;
+                color:white;
+                height:40px;
+            }
         .needHelp{
             padding:12px;
+            background-color:black;
             border:solid white;
             border-radius:32px;
             border-width:.3px;
@@ -73,6 +86,16 @@
             color:white;
             height:40px;
         }
+            .needHelp:hover{
+                padding:12px;
+                border:solid green;
+                border-radius:32px;
+                border-width:.3px;
+                text-align:center;
+                font-size:10px;
+                color:white;
+                height:40px;
+            }
 }
 
 
@@ -163,30 +186,7 @@
     text-align:center;
     border-radius:35px;
 }
-/* .canHelp{
-border:solid white;
-border-radius:50%;
-border-width:3px;
-text-align:center;
-color:white;
-margin:12px;
-font-size:auto;
-width:20%;
-padding:12px;
-height:80px;
-}
-.needHelp{
-    padding:12px;
-    border:solid white;
-    border-radius:50%;
-    border-width:3px;
-    text-align:center;
-    font-size:auto;
-    color:white;
-    margin:12px;
-    width:20%;
-    height:80px;
-} */
+
     .bell{
         height:90px;
         
@@ -198,8 +198,8 @@ height:80px;
     justify-content: space-evenly;
 }
 .formImg{
-    height:250px;
-    margin-top:8px;
+    height:auto;
+    padding:2em;
     width:100%;
     /* border-radius:35px; */
 }
