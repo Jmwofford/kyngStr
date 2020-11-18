@@ -54,28 +54,24 @@
         width:100%;
     }
     .canHelp{
-        border:solid white;
-        border-radius:50%;
-        border-width:.3px;
-        text-align:center;
-        color:white;
-        margin:12px;
-        font-size:auto;
-        width:20%;
         padding:12px;
-        height:80px;
+            border:solid white;
+            border-radius:32px;
+            border-width:.3px;
+            text-align:center;
+            font-size:10px;
+            color:white;
+            height:40px;
         }
         .needHelp{
             padding:12px;
             border:solid white;
-            border-radius:50%;
+            border-radius:32px;
             border-width:.3px;
             text-align:center;
-            font-size:auto;
+            font-size:10px;
             color:white;
-            margin:12px;
-            width:20%;
-            height:80px;
+            height:40px;
         }
 }
 
@@ -132,21 +128,11 @@
 .binfo{
     border:solid black;
     border-width:.3px;
-    margin:2em;
-    padding:6px;
+     /* padding:6px; */
     color:white;
-    text-align:center;
+    /* text-align:center; */
 }
-.binfo:hover{
-    border:solid gold;
-    margin:2em;
-    border-width:.3px;
-    padding:6px;
-    background-color:black;
-    color:gold;
-    text-align:center;
 
-}
 .modal-body{
     background-color:#333C3F;
 }
@@ -255,20 +241,9 @@ form{
     color:white;
     background-image:url('https://media.giphy.com/media/xihv3LX16qmwU/giphy.gif');
     background-size:cover;
-    border:solid gold;
+    border:solid #333C3F;
     border-width:.2px;
 
-}
-#cardMain:hover{
-    margin-top:32px;
-    transition:4s;
-    padding:2em;
-    margin:2em;
-    border-radius:33px;
-    color:white;
-    background-image:url('https://media.giphy.com/media/xihv3LX16qmwU/giphy.gif');
-    background-size:cover;
-    border:none;
 }
 .card-text{
     margin-top:22px;
