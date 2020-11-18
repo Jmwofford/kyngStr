@@ -12,6 +12,7 @@ const showForm2=()=>{
 const toggleMusic = () =>{
     $('body').append("<iframe width='5px' height='5px' src='https://www.youtube.com/embed/25Xrf4oyG3g' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>")
 }
-const addIframe= (iframe)=>{
-    
+const ring= ()=>{
+    audio = new Audio('./ding.wav')
+    audio.play()
 }

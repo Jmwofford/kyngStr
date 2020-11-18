@@ -16,17 +16,67 @@
         height:130px;
         width:100%;
     }
+    .canHelp{
+        border:none;
+        border-radius:none;
+        border-width:3px;
+        text-align:center;
+        color:white;
+        margin:12px;
+        font-size:auto;
+        width:20%;
+        padding:12px;
+        height:80px;
+        }
+        .needHelp{
+            padding:12px;
+            border:none;
+            border-radius:none;
+            border-width:3px;
+            text-align:center;
+            font-size:auto;
+            color:white;
+            margin:12px;
+            width:20%;
+            height:80px;
+        }
+
   }
 /* ==================================== */
   /* mobile */
 @media (max-width: 500px) {
     .bodyA{
         background-color:#7A2E94;
+        border-width: .2px;
     }
     .tagHead{
         height:100px;
         width:100%;
     }
+    .canHelp{
+        border:solid white;
+        border-radius:50%;
+        border-width:.3px;
+        text-align:center;
+        color:white;
+        margin:12px;
+        font-size:auto;
+        width:20%;
+        padding:12px;
+        height:80px;
+        }
+        .needHelp{
+            padding:12px;
+            border:solid white;
+            border-radius:50%;
+            border-width:.3px;
+            text-align:center;
+            font-size:auto;
+            color:white;
+            margin:12px;
+            width:20%;
+            height:80px;
+        }
 }
 
 
@@ -121,49 +171,30 @@
     text-align:center;
     border-radius:35px;
 }
-.canHelp{
+/* .canHelp{
 border:solid white;
 border-radius:50%;
 border-width:3px;
 text-align:center;
 color:white;
 margin:12px;
+font-size:auto;
 width:20%;
 padding:12px;
+height:80px;
 }
-
-    .canHelp:hover{
-        border:solid #7A2E94;
-        background-color:black;
-        border-radius:35px;
-        text-align:center;
-        color:white;
-        margin:22px;
-        width:40%;
-        font-size:20px;
-        transition:.2s;
-    }
 .needHelp{
     padding:12px;
     border:solid white;
     border-radius:50%;
     border-width:3px;
     text-align:center;
+    font-size:auto;
     color:white;
     margin:12px;
     width:20%;
-}
-    .needHelp:hover{
-        border:solid #7A2E94;
-        border-radius:35px;
-        text-align:center;
-        background-color:black;
-        color:white;
-        margin:22px;
-        width:40%;
-        font-size:20px;
-        transition:.2s;
-    }
+    height:80px;
+} */
     .bell{
         height:90px;
         
@@ -214,7 +245,24 @@ form{
 #cardMain{
     margin-top:32px;
     margin:2em;
+    border-radius:33px;
     color:white;
+    background-image:url('https://media.giphy.com/media/xihv3LX16qmwU/giphy.gif');
+    background-size:cover;
+    border:solid gold;
+    border-width:.2px;
+
+}
+#cardMain:hover{
+    margin-top:32px;
+    transition:4s;
+    padding:2em;
+    margin:2em;
+    border-radius:33px;
+    color:white;
+    background-image:url('https://media.giphy.com/media/xihv3LX16qmwU/giphy.gif');
+    background-size:cover;
+    border:none;
 }
 .card-text{
     margin-top:22px;
