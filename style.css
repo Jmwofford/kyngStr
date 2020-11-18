@@ -10,7 +10,7 @@
   /* ===================================== */
 @media (max-width: 1000px) {
     .bodyA{
-        background-color:black;
+        background-color:#7A2E94;
     }
     .tagHead{
         height:130px;
@@ -53,32 +53,21 @@
         height:100px;
         width:100%;
     }
-    .canHelp{
-        padding:12px;
-            border:solid white;
-            border-radius:32px;
-            border-width:.3px;
-            text-align:center;
-            font-size:10px;
-            color:white;
-            height:40px;
-            
-            background-color:black;
-        }
-        .canHelp:hover{
-            padding:22px;
-                border:solid green;
-                border-radius:32px;
-                border-width:.3px;
-                text-align:center;
-                font-size:10px;
-                color:white;
-                height:40px;
-            }
-        .needHelp{
-            padding:22px;
-            background-color:black;
-            border:solid white;
+.canHelp{
+    padding:12px;
+        border:solid white;
+        border-radius:32px;
+        border-width:.3px;
+        text-align:center;
+        font-size:10px;
+        color:white;
+        height:40px;
+        
+        background-color:black;
+    }
+    .canHelp:hover{
+        padding:22px;
+            border:solid green;
             border-radius:32px;
             border-width:.3px;
             text-align:center;
@@ -86,26 +75,31 @@
             color:white;
             height:40px;
         }
-            .needHelp:hover{
-                padding:12px;
-                border:solid green;
-                border-radius:32px;
-                border-width:.3px;
-                text-align:center;
-                font-size:10px;
-                color:white;
-                height:40px;
-            }
+.needHelp{
+    padding:22px;
+    background-color:black;
+    border:solid white;
+    border-radius:32px;
+    border-width:.3px;
+    text-align:center;
+    font-size:10px;
+    color:white;
+    height:40px;
 }
-
-
+    .needHelp:hover{
+        padding:12px;
+        border:solid green;
+        border-radius:32px;
+        border-width:.3px;
+        text-align:center;
+        font-size:10px;
+        color:white;
+        height:40px;
+    }
+}
 
 /* GENERAL CSS */
-.bodyA{
-    height:500vh;
-    padding:1em;
-    font-family:serif;
-}
+
 .sing{
     border:solid red;
     text-align:center;
