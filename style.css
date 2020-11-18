@@ -101,6 +101,7 @@
 /* GENERAL CSS */
 .bodyA{
     height:350vh;
+    padding:1em;
 }
 .sing{
     border:solid red;
