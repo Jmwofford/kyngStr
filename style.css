@@ -84,7 +84,7 @@
 /* GENERAL CSS */
 .bodyA{
     height:500vh;
-    padding:1.2px;
+    padding:12px;
     font-family:serif;
 }
 .sing{
@@ -155,12 +155,18 @@
     width:100%;
 }
 .morph{
-    border:solid white;
+    border:solid #F4D35A;
+    border-width: .3px;
     padding:22px;
     margin-top:22px;
     color:white;
+    background-image: url('http://www.kingstreets.com/wp-content/uploads/2020/10/logo-90-e1603204909268.jpg');
     text-align:center;
     border-radius:35px;
+    position:fixed;
+    /* width:120px; */
+    background-color:gold;
+
 }
 .morph:hover{
     border:solid #7A2E94;
