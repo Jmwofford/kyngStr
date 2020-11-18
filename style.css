@@ -33,30 +33,26 @@
 
 /* GENERAL CSS */
 .bodyA{
-    /* padding:12px; */
     height:500vh;
     font-family:serif;
 }
 #navHelp{
     background-image: url('http://www.kingstreets.com/wp-content/themes/kingstreets/assets/img/martin-luther-king.png');
     background-size:cover;
-    /* height:22vh; */
 }
 .nav-item{
-    /* border:solid black; */
     text-align:center;
-    /* padding:3px; */
     border-radius:22px;
     border-width:.2px;
 
 }
 .nav-item:hover{
-    border:solid black;
     text-align:center;
-    /* background-color:#333C3F; */
-    /* padding:3px; */
     border-radius:22px;
     border-width:.2px;
+    font-size:40px;
+    color:black;
+    transition:1s;
 
 }
 .navbar-nav{
@@ -71,14 +67,14 @@
 .binfo{
     border:solid black;
     border-width:.3px;
-    margin:26px;
+    margin:2em;
     padding:6px;
     color:white;
     text-align:center;
 }
 .binfo:hover{
     border:solid gold;
-    margin:26px;
+    margin:2em;
     border-width:.3px;
     padding:6px;
     background-color:black;
@@ -102,10 +98,10 @@
     border-radius:35px;
 }
 .morph:hover{
-    border:solid white;
+    border:solid #7A2E94;
     padding:22px;
     margin-top:22px;
-    background-color:#7A2E94;
+    background-color:black;
     color:white;
     text-align:center;
     border-radius:35px;
@@ -152,7 +148,8 @@ width:40%;
 }
 .containerOne{
     display:flex;
-    border:solid #7A2E94;
+    margin-top:22px;
+    /* border:solid #7A2E94; */
     justify-content: space-around;
 }
 .formImg{
@@ -177,7 +174,7 @@ form{
     padding:22px;
 }
 .jumbotron{
-    margin-top:2em;
+    margin:2em;
     border:solid white;
     padding:1em;
     color:white;
@@ -194,5 +191,6 @@ form{
 }
 #cardMain{
     margin-top:32px;
+    margin:2em;
     color:white;
 }
