@@ -176,4 +176,13 @@ form{
     border:solid white;
     padding:1em;
     color:white;
+}.imgMod{
+    border:solid white;
+    padding:22px;
+    border-radius:35px;
+    background-color:#7A2E94;
+    margin:6px;
+    height:120px;
+    width:40%;
+    border-width:.3px;
 }
