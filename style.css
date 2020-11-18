@@ -66,7 +66,7 @@
             background-color:black;
         }
         .canHelp:hover{
-            padding:12px;
+            padding:22px;
                 border:solid green;
                 border-radius:32px;
                 border-width:.3px;
@@ -76,7 +76,7 @@
                 height:40px;
             }
         .needHelp{
-            padding:12px;
+            padding:22px;
             background-color:black;
             border:solid white;
             border-radius:32px;
@@ -103,7 +103,7 @@
 /* GENERAL CSS */
 .bodyA{
     height:500vh;
-    padding:2em;
+    padding:1em;
     font-family:serif;
 }
 .sing{
