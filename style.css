@@ -103,7 +103,7 @@
 /* GENERAL CSS */
 .bodyA{
     height:500vh;
-    padding:12px;
+    padding:2em;
     font-family:serif;
 }
 .sing{
@@ -198,13 +198,14 @@
     justify-content: space-evenly;
 }
 .formImg{
-    height:auto;
-    padding:2em;
+    height:260px;
+    padding:1em;
     width:100%;
-    /* border-radius:35px; */
+    border-radius:55px;
+    background-size:cover;
 }
 form{
-    border:solid white;
+    /* border:solid white; */
     padding:22px;
     color:white;
     text-align:center;
@@ -247,4 +248,7 @@ form{
 }
 .card-text{
     margin-top:22px;
+}
+.mj{
+    height:65px;
 }
