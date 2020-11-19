@@ -36,15 +36,10 @@
     padding:1em;
 }
 .sing{
-    border:solid red;
+    /* border:solid red; */
     text-align:center;
     background-color:gold;
-}
-.sing:hover{
-    border:solid red;
-    text-align:center;
-    border-width:6px;
-    background-color:gold;
+    border-radius:22px;
 }
 #navHelp{
     background-image: url('http://www.kingstreets.com/wp-content/themes/kingstreets/assets/img/martin-luther-king.png');
@@ -87,7 +82,6 @@
     text-align:center;
     border-radius:35px;
     position:fixed;
-    /* width:120px; */
     background-color:gold;
 }
 .morph:hover{
