@@ -16,31 +16,6 @@
         height:130px;
         width:100%;
     }
-    .canHelp{
-        border:none;
-        border-radius:none;
-        border-width:3px;
-        text-align:center;
-        color:white;
-        margin:12px;
-        font-size:auto;
-        width:20%;
-        padding:12px;
-        height:80px;
-        }
-        .needHelp{
-            padding:12px;
-            border:none;
-            border-radius:none;
-            border-width:3px;
-            text-align:center;
-            font-size:auto;
-            color:white;
-            margin:12px;
-            width:20%;
-            height:80px;
-        }
-
   }
 /* ==================================== */
   /* mobile */
@@ -52,49 +27,6 @@
     .tagHead{
         height:100px;
         width:100%;
-    }
-.canHelp{
-    padding:12px;
-        border:solid white;
-        border-radius:32px;
-        border-width:.3px;
-        text-align:center;
-        font-size:10px;
-        color:white;
-        height:40px;
-        
-        background-color:black;
-    }
-    .canHelp:hover{
-        padding:22px;
-            border:solid green;
-            border-radius:32px;
-            border-width:.3px;
-            text-align:center;
-            font-size:10px;
-            color:white;
-            height:40px;
-        }
-.needHelp{
-    padding:22px;
-    background-color:black;
-    border:solid white;
-    border-radius:32px;
-    border-width:.3px;
-    text-align:center;
-    font-size:10px;
-    color:white;
-    height:40px;
-}
-    .needHelp:hover{
-        padding:12px;
-        border:solid green;
-        border-radius:32px;
-        border-width:.3px;
-        text-align:center;
-        font-size:10px;
-        color:white;
-        height:40px;
     }
 }
 
@@ -122,7 +54,6 @@
     text-align:center;
     border-radius:22px;
     border-width:.2px;
-
 }
 
 .navbar-nav{
@@ -132,22 +63,16 @@
     height:150px;
 }
 .midContainer{
-    /* border:solid white; */
     margin-top:22px;
     padding:1em;
-
 }
-
-
 .modal-body{
     /* background-color:#333C3F; */
     background-image:url('https://media.giphy.com/media/FY9chKp6rulXy/giphy.gif');
     /* background-size:cover; */
     /* display:flex; */
     color:gold;
-    
 }
-
 #introModal{
     width:100%;
 }
@@ -163,7 +88,6 @@
     position:fixed;
     /* width:120px; */
     background-color:gold;
-
 }
 .morph:hover{
     border:solid #7A2E94;
@@ -175,10 +99,9 @@
     border-radius:35px;
 }
 
-    .bell{
-        height:90px;
-        
-    }
+.bell{
+    height:90px;  
+}
 .containerOne{
     display:flex;
     margin-top:22px;
@@ -187,6 +110,8 @@
 }
 .formImg{
     height:260px;
+    border:solid white;
+    border-width:.4px;
     padding:1em;
     width:100%;
     border-radius:55px;
@@ -253,4 +178,36 @@ form{
 }
 .mj{
     height:65px;
+}
+.canHelp{
+    border:solid white;
+    padding:8px;
+    border-radius:45px;
+    background-color:#333C3F;
+    color:white;
+    border-width:.4px;
+}
+.canHelp:hover{
+    border:solid white;
+    padding:8px;
+    border-radius:45px;
+    background-color:white;
+    color:black;
+    border-width:.4px;
+}
+.needHelp{
+    border:solid white;
+    padding:8px;
+    border-radius:45px;
+    background-color:#333C3F;
+    color:white;
+    border-width:.4px;
+}
+.needHelp:hover{
+    border:solid white;
+    padding:8px;
+    border-radius:45px;
+    background-color:white;
+    color:black;
+    border-width:.4px;
 }
