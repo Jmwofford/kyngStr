@@ -60,7 +60,7 @@ const pledgeDelta = () =>{
 }
 
 const addBrand=()=>{
-    $('.addSwitch').replaceWith("<input id='nputName' style='text-align:center;width:100%;margin-top:12px;margin-bottom:12px;'type='text' placeholder='Add Fraternity Name 'class='addFrat'><input id='nputColor' style='text-align:center;width:100%;margin-top:12px;margin-bottom:12px;'type='text' placeholder='Add Fraternity Color 'class='addFrat'><input id='nputLogo' style='text-align:center;width:100%;margin-top:12px;margin-bottom:12px;'type='text' placeholder='Add Fraternity Logo 'class='addFrat'><button class='etchNstone' onclick='crossSand()'>Cross Sands</button>")
+    $('.addSwitch').replaceWith("<input id='nputName' style='text-align:center;width:100%;margin-top:12px;margin-bottom:12px;'type='text' placeholder='Add Fraternity Name 'class='addFrat'><input id='nputColor' style='text-align:center;width:100%;margin-top:12px;margin-bottom:12px;'type='text' placeholder='Add Fraternity Color 'class='addFrat'><input id='nputLogo' style='text-align:center;width:100%;margin-top:12px;margin-bottom:12px;'type='text' placeholder='Add Fraternity Logo 'class='addFrat'><form><div class='form-group'><input type='file' class='form-control-file' id='exampleFormControlFile1'></div></form><button class='etchNstone' onclick='crossSand()'>Cross Sands</button>")
 }
 
 const crossSand=()=>{
