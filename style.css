@@ -222,6 +222,7 @@ form{
     justify-content: space-around;
     border:solid grey;
     margin-bottom:22px;
+    background-color:black;
 }
 .frat{
     border:solid lemonchiffon;

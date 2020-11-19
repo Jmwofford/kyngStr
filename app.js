@@ -58,6 +58,24 @@ const pledgeDelta = () =>{
     $('.brand-header').replaceWith("<h1>Delta Sigma Theta</h1>")
 
 }
+const embracePledge=(name,color,log)=>{
+    gangButton
+}
 const addBrand=()=>{
-    $('.addSwitch').replaceWith("<input style='text-align:center;width:100%;margin-top:12px;margin-bottom:12px;'type='text' placeholder='Add Fraternity Name 'class='addFrat'><input style='text-align:center;width:100%;margin-top:12px;margin-bottom:12px;'type='text' placeholder='Add Fraternity Color 'class='addFrat'><input style='text-align:center;width:100%;margin-top:12px;margin-bottom:12px;'type='text' placeholder='Add Fraternity Logo 'class='addFrat'><button class='etchNstone'>Cross Sands</button>")
+    $('.addSwitch').replaceWith("<input id='nputName' style='text-align:center;width:100%;margin-top:12px;margin-bottom:12px;'type='text' placeholder='Add Fraternity Name 'class='addFrat'><input id='nputColor' style='text-align:center;width:100%;margin-top:12px;margin-bottom:12px;'type='text' placeholder='Add Fraternity Color 'class='addFrat'><input id='nputLogo' style='text-align:center;width:100%;margin-top:12px;margin-bottom:12px;'type='text' placeholder='Add Fraternity Logo 'class='addFrat'><button class='etchNstone' onclick='crossSand()'>Cross Sands</button>")
+}
+
+const crossSand=()=>{
+   $('.fratContainer').css("background-image","url('https://media.giphy.com/media/26uf1ClmFlG0PKbFC/giphy.gif')") 
+//    setAblaze
+
+// storeInputData
+name = $('#nputName').val()
+color = $('#nputColor').val()
+logo = $('#nputLogo').val()
+// // Customizer
+$('.omegaContainer').css("background-color",color)
+$('.frat').replaceWith(`<img style="height:400px;width:400px;border:solid white;" src='${logo}'>`);
+$('.brand-header').replaceWith(`<h1 style='color:black'>${name}</h1>`)
+const gangButton = $('.pledgeBtns').append(`<button onclick='embracePledge(${name},${color},${logo})'class='brand'>${name}</button>`)
 }
