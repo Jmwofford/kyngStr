@@ -58,3 +58,6 @@ const pledgeDelta = () =>{
     $('.brand-header').replaceWith("<h1>Delta Sigma Theta</h1>")
 
 }
+const addBrand=()=>{
+    $('.addSwitch').replaceWith("<input style='text-align:center;width:100%;margin-top:12px;margin-bottom:12px;'type='text' placeholder='Add Fraternity Name 'class='addFrat'><input style='text-align:center;width:100%;margin-top:12px;margin-bottom:12px;'type='text' placeholder='Add Fraternity Color 'class='addFrat'><input style='text-align:center;width:100%;margin-top:12px;margin-bottom:12px;'type='text' placeholder='Add Fraternity Logo 'class='addFrat'><button class='etchNstone'>Cross Sands</button>")
+}

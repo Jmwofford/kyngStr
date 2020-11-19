@@ -260,6 +260,7 @@ form{
 .pledgeBtns{
     justify-content: space-between;
     margin-top:35px;
+    display: flex;
 }
 .popLogo{
     border:solid white;
@@ -272,4 +273,40 @@ form{
 .logoEmblem{
     height:100%;
     width:100%;
+}
+.btnUnusual{
+    border:solid white;
+    margin-bottom:1em;  
+    border-radius:32px;
+
+}.btnUnusual:hover{
+    border:solid white;
+    margin-bottom:1em;
+    color:white;
+    background-color:green;
+    border-radius:32px;
+
+}
+.etchNstone{
+    border:solid green;
+    color:white;
+    height:84px;
+    width:100%;
+    padding:1em;
+    border-radius:33px;
+    background-image:url('https://media.giphy.com/media/5lPeeQkp1wQWQ/giphy.gif');
+    background-size:cover;
+    margin-bottom:1em;
+}
+.etchNstone:hover{
+    border:solid red;
+    color:white;
+    height:84px;
+    width:60%;
+    transition:3s;
+    padding:1em;
+    border-radius:33px;
+    background-image:url('https://media.giphy.com/media/5lPeeQkp1wQWQ/giphy.gif');
+    background-size:cover;
+    margin-bottom:1em;
 }
