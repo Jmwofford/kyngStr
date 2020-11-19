@@ -54,7 +54,6 @@ const pledgeDelta = () =>{
     $('.omegaContainer').css("background-color","grey")
     $('.fratContainer').css("background-color","red")
     $('.frat').replaceWith("<img class='logoEmblem' src='https://www.logolynx.com/images/logolynx/3e/3e1304dcdbc5048e4dd3ca2f29e4dbcf.png'>");
-    
     $('.soro').replaceWith("<p>Text About your Frat</p>")
     $('.brand-header').replaceWith("<h1>Delta Sigma Theta</h1>")
 

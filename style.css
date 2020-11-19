@@ -223,10 +223,10 @@ form{
     border:solid grey;
     margin-bottom:22px;
 }
-.frat,.soro{
+.frat{
     border:solid lemonchiffon;
     margin:10px;
-    width:40%;
+    width:100%;
     height:25vh;
     border-width:.2px;
 
@@ -235,7 +235,8 @@ form{
     height:50px;
     padding:12px;
     border-radius:22px;
-    width:auto;
+    width:100%;
+    color:white;
     margin:1%;
     background-color:#333C3F;
 
@@ -243,11 +244,12 @@ form{
 .brand:hover{
     height:50px;
     padding:12px;
+    width:100%;
     border-radius:22px;
     color:black;
     background-color:white;
-    width:auto;
-    margin:1%;
+    margin-top:14px;
+    margin-bottom:14px;
 }
 
 .frat_title{
