@@ -181,6 +181,8 @@ form{
     background-color:#333C3F;
     color:white;
     border-width:.4px;
+    WIDTH:40%;
+    TEXT-ALIGN:CENTER;
 }
 .canHelp:hover{
     border:solid white;
@@ -197,6 +199,8 @@ form{
     background-color:#333C3F;
     color:white;
     border-width:.4px;
+    width: 40%;
+    TEXT-ALIGN:CENTER;
 }
 .needHelp:hover{
     border:solid white;
