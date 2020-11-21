@@ -318,26 +318,27 @@ form{
     margin-bottom:1em;
 }
 .media{
-    border:solid white;
+    /* border:solid #333C3F; */
     font-size:13px;
     border-width:.3px;
     margin:22px;
     color:lemonchiffon;
-    padding:2em;
+    padding:1em;
 }
 .media:hover{
     border:solid white;
     border-width:.3px;
     background-color:#333C3F;
-    margin:22px;
+    margin:22px;    
+    font-size:13px;
     color:lemonchiffon;
-    padding:2em;
+    padding:1em;
 }
 
 .vizual{
     width:100%;
     margin-top:22px;
-    height:440px;
+    height:240px;
     border-radius:33px;
     border:solid #333C3F;
 }
@@ -346,6 +347,6 @@ form{
     padding:1em;
 }
 #nuBtn{
-    /* margin-left:10%; */
     border:solid white;
+    border-width:.4px;
 }
