@@ -317,3 +317,35 @@ form{
     background-size:cover;
     margin-bottom:1em;
 }
+.media{
+    border:solid white;
+    font-size:13px;
+    border-width:.3px;
+    margin:22px;
+    color:lemonchiffon;
+    padding:2em;
+}
+.media:hover{
+    border:solid white;
+    border-width:.3px;
+    background-color:#333C3F;
+    margin:22px;
+    color:lemonchiffon;
+    padding:2em;
+}
+
+.vizual{
+    width:100%;
+    margin-top:22px;
+    height:440px;
+    border-radius:33px;
+    border:solid #333C3F;
+}
+.nuContainer{
+    /* border:solid white; */
+    padding:1em;
+}
+#nuBtn{
+    margin-left:10%;
+    border:solid white;
+}
