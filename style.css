@@ -346,6 +346,6 @@ form{
     padding:1em;
 }
 #nuBtn{
-    margin-left:10%;
+    /* margin-left:10%; */
     border:solid white;
 }
